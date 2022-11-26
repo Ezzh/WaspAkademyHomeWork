@@ -1,8 +1,8 @@
 public class Car
     {
-        public int power;
-        public int year;
-        public string marka = "";
+        public int power {get; set;}
+        public int year {get; set;}
+        public string marka {get; set;}
 
         public Car(string marka, int power, int year)
         {

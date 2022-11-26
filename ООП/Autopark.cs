@@ -1,6 +1,6 @@
 class Autopark
 {
-    public string name = "";
+    public string name {get; set;}
     public List<Car> cars = new List<Car>();
     public Autopark(string name)
     {
@@ -13,6 +13,7 @@ class Autopark
     public override string ToString()
     {
         string ln = "";
+        ln += name + "\n\n";
         foreach (var item in cars)
         {
             ln += item.ToString();
