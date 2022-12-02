@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 class Truck : Car
     {
         public int max {get; set;}

@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 class Autopark
 {
     public string name {get; set;}

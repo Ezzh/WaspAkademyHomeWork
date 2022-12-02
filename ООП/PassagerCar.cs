@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 public class PassagerCar : Car
     {
         public int pas {get; set;}
