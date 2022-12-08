@@ -9,7 +9,7 @@
 ------------------|--------|--------
 Автопарк          | 🟢    | <a href="https://github.com/Ezzh/WaspAkademyHomeWork/tree/master/ООП">Перейти</a>
 Упаковка шортиков(2_3)         | 🟢   | <a href="https://github.com/Ezzh/WaspAkademyHomeWork/tree/master/2">Перейти</a>
-Магазин дисков| 🟡  |<a href="https://github.com/Ezzh/WaspAkademyHomeWork/tree/master/ООП2">Перейти</a>
+Магазин дисков| 🟡  |<a href="https://github.com/Ezzh/WaspAkademyHomeWork/tree/master/ООП%202">Перейти</a>
 
 **Статусы выполнения:** <br>
 🔴 Не готово <br>
