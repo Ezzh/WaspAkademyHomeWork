@@ -1,9 +1,10 @@
 class Autopark
 {
     public string name {get; set;}
-    public List<Car> cars = new List<Car>();
+    public List<Car> cars;
     public Autopark(string name)
     {
+        cars = new List<Car>();
         this.name = name;
     }
     public void AddCar(Car car)

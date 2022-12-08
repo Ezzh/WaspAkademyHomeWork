@@ -12,10 +12,15 @@ class DVD : Disk
     public override int DiskSize { get{return (minutesCount / 64) * 2;} }
     public override void Burn(params string[] values)
     {
-        burnCount++;
+        this.name = values[0];
+        this.genre = values[1];
+        this.producer = values[2];
+        this.filmCompany = values[3];
+        this.minutesCount = Convert.ToInt32(values[4]);
+        this.burnCount++;
     }
     public override string ToString()
     {
-        return $"Название: {name}\nЖанр: {genre}\nРежисер: {producer}\nКомпания: {filmCompany}\nДлительность: {minutesCount}\n]Кол-во прожигов: {burnCount}";
+        return $"Название: {name}\nЖанр: {genre}\nРежисер: {producer}\nКомпания: {filmCompany}\nДлительность: {minutesCount}\nКол-во прожигов: {burnCount}";
     }
 }

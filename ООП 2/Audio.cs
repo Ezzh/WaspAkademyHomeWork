@@ -13,11 +13,15 @@ class Audio : Disk
     }
     public override void Burn(params string[] values)
     {
-
-        burnCount++;
+        this.name = values[0];
+        this.genre = values[1];
+        this.artist = values[2];
+        this.recordingStudia = values[3];
+        this.songsNumber = Convert.ToInt32(values[4]);
+        this.burnCount++;
     }
     public override string ToString()
     {
-        return $"Название: {name}\nЖанр: {genre}\nИсполнитель: {artist}\nСтудия: {recordingStudia}\nКол-во песен: {songsNumber}\n]Кол-во прожигов: {burnCount}";
+        return $"Название: {name}\nЖанр: {genre}\nИсполнитель: {artist}\nСтудия: {recordingStudia}\nКол-во песен: {songsNumber}\nКол-во прожигов: {burnCount}";
     }
 }

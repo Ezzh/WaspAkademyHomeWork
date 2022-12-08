@@ -5,16 +5,16 @@ namespace HomeworkOOP
 {
     class Program
     {
-        public static void Main()
+        public static void K2()
         {
-            Truck gb = new Truck("Lamba", 123, 1456, 65, "Goblin");
-            PassagerCar hob = new PassagerCar("Javelin", 100, 1567, 45);
-            PassagerCar ferra = new PassagerCar("Ferra", 100, 1890, 3);
-            Autopark park = new Autopark("Novobiha");
-            park.AddCar(gb);
-            park.AddCar(hob);
-            park.AddCar(ferra);
-            Console.WriteLine(park);
+            Audio biber = new Audio("biber", "pops", "biber", "USA", 12);
+            DVD titanic = new DVD("Titanik", "Drama", "Spilberg", "USA", 123);
+            Store ggstore = new Store("ggstore", "12/42");
+            ggstore += biber;
+            ggstore += titanic;
+            Console.WriteLine(ggstore);
+            titanic.Burn("Ostrie kozirki", "Boevik", "Tom", "USA", "1234");
+            Console.WriteLine(ggstore.dvds[0].DiskSize);
 
         }
     }

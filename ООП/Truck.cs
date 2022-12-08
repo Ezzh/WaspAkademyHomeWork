@@ -2,9 +2,10 @@ class Truck : Car
     {
         public int max {get; set;}
         public string fio {get; set;}
-        public Dictionary<string, int> gruz = new Dictionary<string, int>();
+        public Dictionary<string, int> gruz;
         public Truck(string marka, int power, int year, int max, string fio) : base(marka, power, year)
         {
+            gruz = new Dictionary<string, int>();
             this.max = max;
             this.fio = fio;
         }

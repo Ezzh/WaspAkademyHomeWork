@@ -1,9 +1,10 @@
 public class PassagerCar : Car
     {
         public int pas {get; set;}
-        public Dictionary<string, int> remont = new Dictionary<string, int>();
+        public Dictionary<string, int> remont;
         public PassagerCar(string marka, int power, int year, int pas) : base(marka, power, year)
         {
+            remont = new Dictionary<string, int>();
             this.pas = pas;
         }
 

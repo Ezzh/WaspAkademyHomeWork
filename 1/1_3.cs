@@ -10,7 +10,7 @@ namespace Homework1_3
             int[,] tochki = new int[3, 2];int[] n = new int[2];int[] maxx = {0, 0}; int a, b, c;
             for (int i = 0; i < 3; i++)
             {
-                n = Console.ReadLine().Split().Select(chislo => Convert.ToInt32(chislo)).ToArray();
+                n = (Console.ReadLine()+' ').Split().Select(chislo => Convert.ToInt32(chislo)).ToArray();
                 tochki[i, 0] = n[0];
                 tochki[i, 1] = n[1];
                 if (n[0] > maxx[0])
